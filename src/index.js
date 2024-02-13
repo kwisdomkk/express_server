@@ -8,7 +8,7 @@ const PORT=3000
 //     res.send("root direstory")
 // })
 app.get("/",(req,res)=>{
-    res.send("Hello World! github push");
+    res.send("Hello World! github push test");
 });
 
 app.listen(PORT,()=> console.log(`Sever on: http://localhost:${PORT}`));
